@@ -1,0 +1,22 @@
+
+
+# Chance for the mob to drop it's own spawn egg (out of 100)
+chance: 50.0
+
+minimum-amount: 1
+maximum-amount: 2
+
+# Mobs that won't drop their spawn eggs
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+blacklisted-mobs: []
+
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+particles:
+   type: VILLAGER_HAPPY
+   amount: 5
+   offset:
+      x: 0.2
+      y: 0.2
+      z: 0.2
+   # For how long the particles should stay in seconds
+   time: 5
